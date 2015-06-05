@@ -9,7 +9,7 @@ Bottom line: if your project is bigger than one to two hundred lines of code
 (it is), you should be using [Sando](http://sando.codeplex.com/).
 
 Other docs:
------------
+=========
 [^Ko-etal]: Ko, A.J.; Myers, B.A.; Coblenz, M.J.; Aung, H.H., "An Exploratory
 Study of How Developers Seek, Relate, and Collect Relevant Information during
 Software Maintenance Tasks,"
