@@ -1,32 +1,8 @@
----
-title: Structural navigation
-names:
-    - Edit.GoToDeclaration
-    - Edit.GoToDefinition
-    - Edit.GoToNextLocation
-    - Edit.GoToPrevLocation
-    - Edit.GoToReference
-    - Edit.NavigateTo
-    - Edit.NavigateToLollipop
-    - Edit.PeekDefinition
-    - EditorContextMenus.CodeWindow.CodeMap.ShowItem
-    - EditorContextMenus.CodeWindow.GoToTypeDefinition
-    - EditorContextMenus.CodeWindow.ViewCallHierarchy
-    - EditorContextMenus.XAMLEditor.NavigatetoEventHandler
-    - ProjectandSolutionContextMenus.Project.ViewClassDiagram
-    - CodeMaid.FindInSolutionExplorer
-kind: Navigation
-docs:
-    - http://blogs.msdn.com/b/mvpawardprogram/archive/2013/10/22/visual-studio-2013-navigate-to-improvements.aspx
-    - https://msdn.microsoft.com/en-us/library/dn160178.aspx
-    - https://msdn.microsoft.com/en-us/library/jj153218.aspx#bkmk_navigating
-...
-
 Using structured navigation commands and tools available for Visual Studio make
 navigating code much quicker than scrolling through a file. These commands
 help you navigate and build your own mental model of a project's code.
 Developers that use structural navigation take less time to complete
-tasks[^Fritz-etal].
+tasks (Fritz et al.).
 
 Here are a few highlighted navigation commands that provide a structured
 navigation approach to locating relevant source code.
@@ -50,6 +26,14 @@ Class View (`Ctrl`+`W`, `C`)
 View can help you maintain a view of the code structure. This window is
 available in the View menu.
 
-[^Fritz-etal]: T. Fritz, D. C. Shepherd, K. Kevic, W. Snipes, and C. Braunlich,
-"Developers' code context models for change tasks"
+#### References
+
+T. Fritz, D. C. Shepherd, K. Kevic, W. Snipes, and C. Braunlich, "Developers'
+code context models for change tasks"
 <http://www.ifi.uzh.ch/seal/people/kevic/researchprojects/taskcontext/FSE2014.pdf>
+
+#### Related documentation
+
+- <http://blogs.msdn.com/b/mvpawardprogram/archive/2013/10/22/visual-studio-2013-navigate-to-improvements.aspx>
+- <https://msdn.microsoft.com/en-us/library/dn160178.aspx>
+- <https://msdn.microsoft.com/en-us/library/jj153218.aspx#bkmk_navigating>
