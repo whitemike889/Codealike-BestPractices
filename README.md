@@ -1,2 +1,0 @@
-Codealike Best Practices Repository
-===================================
